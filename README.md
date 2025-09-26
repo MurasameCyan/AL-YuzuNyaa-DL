@@ -1,1 +1,1 @@
-# AL-YuzuNyaa-DL
+Nyaa~
