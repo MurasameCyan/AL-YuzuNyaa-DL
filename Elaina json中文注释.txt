@@ -1,3 +1,6 @@
+json文件位于  Android/data/包名/files/Elaina.json
+
+
 {
   "BuiltBy": "由@伊蕾娜/@Elaina构建，本资源完全免费禁止盗卖，如有闪退，把Elaina.json删了后重启游戏",
   "Github": "https://github.com/elaina-al/AL",
