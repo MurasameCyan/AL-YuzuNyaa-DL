@@ -1,0 +1,81 @@
+{
+  "BuiltBy": "由@伊蕾娜/@Elaina构建，本资源完全免费禁止盗卖，如有闪退，把Elaina.json删了后重启游戏",
+  "Github": "https://github.com/elaina-al/AL",
+  
+  // --- 舰载机 (Aircraft) ---
+  "Aircraft": {
+    "Enabled": false, // 功能开关：false=关闭，true=开启
+    "Accuracy": -1, // 命中值
+    "AccuracyGrowth": -1, // 命中成长
+    "AttackPower": -1, // 攻击力
+    "AttackPowerGrowth": -1, // 攻击力成长
+    "CrashDamage": -1, // 撞击伤害
+    "Hp": -1, // 血量
+    "HpGrowth": -1, // 血量成长
+    "Speed": -1 // 速度
+  },
+
+  // --- 敌方 (Enemies) ---
+  "Enemies": {
+    "Enabled": false, // 功能开关：false=关闭，true=开启
+    "AntiAir": -1, // 防空
+    "AntiAirGrowth": -1, // 防空成长
+    "AntiSubmarine": -1, // 反潜
+    "Armor": -1, // 装甲
+    "ArmorGrowth": -1, // 装甲成长
+    "Cannon": -1, // 炮击
+    "CannonGrowth": -1, // 炮击成长
+    "Evasion": -1, // 闪避
+    "EvasionGrowth": -1, // 闪避成长
+    "Hit": -1, // 命中
+    "HitGrowth": -1, // 命中成长
+    "Hp": -1, // 血量/耐久
+    "HpGrowth": -1, // 血量成长
+    "Luck": -1, // 幸运
+    "LuckGrowth": -1, // 幸运成长
+    "Reload": -1, // 装填
+    "ReloadGrowth": -1, // 装填成长
+    "Speed": -1, // 移速
+    "SpeedGrowth": -1, // 移速成长
+    "Torpedo": -1, // 鱼雷
+    "TorpedoGrowth": -1, // 鱼雷成长
+    "InstakillOnSpawn": false, // 秒杀
+    "InstakillOnSpawnDelay": -1.0 //秒杀延时（以秒为单位）
+  },
+
+  // --- 己方 (Friendlies) ---
+  "Friendlies": {
+    "Enabled": false, // 功能开关：false=关闭，true=开启
+    "HpMultiplier": 1.0, // 血量倍率
+    "Damage": -1, // 伤害
+    "ReloadMax": -1 // 装填
+  },
+
+  // --- 伪装 (Spoof) ---
+  "Spoof": {
+    "Enabled": false, // 功能开关：false=关闭，true=开启
+    "Name": "", // 姓名
+    "Id": "", // ID
+    "Lv": 0 // 指挥官等级
+  },
+
+  // --- 杂项 (Misc) ---
+  "Misc": {
+    "Enabled": false, // 功能开关：false=关闭，true=开启
+    "ExerciseGodmode": false, // 演习无敌模式 
+    "FastStageMovement": false, // 快速移动
+    "Skins": false, // 解锁换装
+    "AutoRepeatLimit": -1, // 连续作战次数限制
+    "ChatCommands": false, // 聊天框指令
+    "RemoveBBAnimation": false, // 移除战列舰开炮动画
+    "RemoveAwakenAnimation": false, // 移除认知觉醒动画
+    "RemoveMoraleWarning": false, // 移除低心情警告弹窗
+    "RemoveHardModeStatLimit": false, // 移除困难模式舰船种类限制
+    "RemoveNSFWArts": false, // 移除NSFW图像
+    "AllBlueprintsConvertible": false, // 蓝图转换
+    "OathAll": false, // 全员誓约
+    "UnlockUI": false, // 解锁UI
+    "EXProtection": false, //EX关卡保护（启用后EX关卡无法出击）
+    "MetaProtection": false //Meta支援信标保护（启用后Meta支援信标无法出击）
+  }
+}
