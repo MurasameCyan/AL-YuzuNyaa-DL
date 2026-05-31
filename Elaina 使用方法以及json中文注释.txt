@@ -1,47 +1,9 @@
 json文件位于  Android/data/包名/files/Elaina.json
 
-
-{
-  "BuiltBy": "由@伊蕾娜/@Elaina构建，本资源完全免费禁止盗卖，如有闪退，把Elaina.json删了后重启游戏",
-  "Github": "https://github.com/elaina-al/AL",
-  
-  // --- 舰载机 (Aircraft) ---
-  "Aircraft": {
-    "Enabled": false, // 功能开关：false=关闭，true=开启
-    "Accuracy": -1, // 命中值
-    "AccuracyGrowth": -1, // 命中成长
-    "AttackPower": -1, // 攻击力
-    "AttackPowerGrowth": -1, // 攻击力成长
-    "CrashDamage": -1, // 撞击伤害
-    "Hp": -1, // 血量
-    "HpGrowth": -1, // 血量成长
-    "Speed": -1 // 速度
-  },
-
   // --- 敌方 (Enemies) ---
   "Enemies": {
     "Enabled": false, // 功能开关：false=关闭，true=开启
-    "AntiAir": -1, // 防空
-    "AntiAirGrowth": -1, // 防空成长
-    "AntiSubmarine": -1, // 反潜
-    "Armor": -1, // 装甲
-    "ArmorGrowth": -1, // 装甲成长
-    "Cannon": -1, // 炮击
-    "CannonGrowth": -1, // 炮击成长
-    "Evasion": -1, // 闪避
-    "EvasionGrowth": -1, // 闪避成长
-    "Hit": -1, // 命中
-    "HitGrowth": -1, // 命中成长
-    "Hp": -1, // 血量/耐久
-    "HpGrowth": -1, // 血量成长
-    "Luck": -1, // 幸运
-    "LuckGrowth": -1, // 幸运成长
-    "Reload": -1, // 装填
-    "ReloadGrowth": -1, // 装填成长
-    "Speed": -1, // 移速
-    "SpeedGrowth": -1, // 移速成长
-    "Torpedo": -1, // 鱼雷
-    "TorpedoGrowth": -1, // 鱼雷成长
+    "EnemyHP": -1, // 血量/耐久
     "InstakillOnSpawn": false, // 秒杀
     "InstakillOnSpawnDelay": -1.0 //秒杀延时（以秒为单位）
   },
@@ -67,6 +29,7 @@ json文件位于  Android/data/包名/files/Elaina.json
     "Enabled": false, // 功能开关：false=关闭，true=开启
     "ExerciseGodmode": false, // 演习无敌模式 
     "FastStageMovement": false, // 快速移动
+    "LoopModeUnlock": true, // 强制解锁周回模式
     "Skins": false, // 解锁换装
     "AutoRepeatLimit": -1, // 连续作战次数限制
     "ChatCommands": false, // 聊天框指令
@@ -77,8 +40,8 @@ json文件位于  Android/data/包名/files/Elaina.json
     "RemoveNSFWArts": false, // 移除NSFW图像
     "AllBlueprintsConvertible": false, // 蓝图转换
     "OathAll": false, // 全员誓约
+    "UnlockAllShips": false, // 全船解锁
     "UnlockUI": false, // 解锁UI
     "EXProtection": false, //EX关卡保护（启用后EX关卡无法出击）
     "MetaProtection": false //Meta支援信标保护（启用后Meta支援信标无法出击）
   }
-}
