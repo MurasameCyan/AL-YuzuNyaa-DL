@@ -1,4 +1,6 @@
 Nyaa~
+国服小版本更新默认只构建b服 需要其他服就开issues
+
 
 [国服下载地址](https://github.com/MurasameCyan/AL-YuzuNyaa-DL/releases)
 
